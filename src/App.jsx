@@ -1,13 +1,10 @@
 import { Canvas } from "@react-three/fiber";
-import Experience from "./components/Experience";
+import Scene from "./components/Scene";
 
-const App = () => {
+export default function App() {
 	return (
 		<Canvas>
-			<ambientLight intensity={1} />
-			<Experience />
+			<Scene />
 		</Canvas>
 	);
 }
-
-export default App;
